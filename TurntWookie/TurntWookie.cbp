@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -43,7 +45,27 @@
 			<Add directory="C:/SDL-1.2.15/lib" />
 		</Linker>
 		<Unit filename="cb.bmp" />
+		<Unit filename="img/RGB.txt" />
+		<Unit filename="img/blackstone.bmp" />
+		<Unit filename="img/blcorner.bmp" />
+		<Unit filename="img/bottomedge.bmp" />
+		<Unit filename="img/brcorner.bmp" />
+		<Unit filename="img/fullpoint.bmp" />
+		<Unit filename="img/leftedge.bmp" />
+		<Unit filename="img/rightedge.bmp" />
+		<Unit filename="img/tlcorner.bmp" />
+		<Unit filename="img/topedge.bmp" />
+		<Unit filename="img/trcorner.bmp" />
+		<Unit filename="img/whitestone.bmp" />
+		<Unit filename="include/Board.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Point.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Board.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Point.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
